@@ -38,6 +38,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+        <style>
+        .services-maps-img {
+            width: 80%;
+            max-width: 80%;
+            height: auto;
+            border-radius: 14px;
+            box-shadow: 0 6px 24px 0 rgba(60, 30, 170, 0.13);
+        }
+        @media (min-width: 768px) {
+            .services-maps-img {
+                max-width: 60%;
+                width: auto;
+            }
+        }
+    </style>
+    
 </head>
 <body>
     <!-- Navigation -->
@@ -107,117 +124,14 @@
 
 
 
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">What We Do</span>
-                <h2 class="section-title">360° Services for Complete Growth</h2>
-                <p class="section-description">Everything your business needs to scale — from development to deployment, branding to marketing.</p>
-            </div>
-            
-            <!-- Carousel Navigation -->
-            <div class="services-carousel-container">
-                <button class="carousel-nav-btn prev-btn" id="servicesPrevBtn" aria-label="Previous">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M15 18l-6-6 6-6"/>
-                    </svg>
-                </button>
-                
-                <div class="services-carousel-track">
-                    <div class="services-carousel" id="servicesCarousel">
-                <div class="service-card">
-                    <div class="service-icon">💻</div>
-                    <h3 class="service-title">Tech & Product Development</h3>
-                    <p class="service-description">
-                        Web and mobile app development, AI tools, automation systems, internal dashboards, and SaaS products built with cutting-edge technology.
-                    </p>
-                    <ul class="service-features">
-                        <li>Custom Web Applications</li>
-                        <li>Mobile App Development</li>
-                        <li>SaaS Product Development</li>
-                        <li>Internal Dashboards</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">👥</div>
-                    <h3 class="service-title">Talent & Hiring Solutions</h3>
-                    <p class="service-description">
-                        Complete hiring pipeline setup, candidate screening, technical interviews, and onboarding automation to build your dream team.
-                    </p>
-                    <ul class="service-features">
-                        <li>Hiring Pipeline Setup</li>
-                        <li>Candidate Screening</li>
-                        <li>Technical Interviews</li>
-                        <li>Onboarding Automation</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">🎨</div>
-                    <h3 class="service-title">Branding & Design Studio</h3>
-                    <p class="service-description">
-                        Logo design, brand identity, content creation, UX/UI design, and product visuals that make your brand stand out.
-                    </p>
-                    <ul class="service-features">
-                        <li>Logo & Brand Identity</li>
-                        <li>UX/UI Design</li>
-                        <li>Product Visuals</li>
-                        <li>Content Creation</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">📈</div>
-                    <h3 class="service-title">Marketing & Growth</h3>
-                    <p class="service-description">
-                        Performance marketing, SEO, paid ads, social media management, influencer campaigns, and content strategy for explosive growth.
-                    </p>
-                    <ul class="service-features">
-                        <li>Performance Marketing</li>
-                        <li>SEO & Content Strategy</li>
-                        <li>Paid Advertising</li>
-                        <li>Influencer Campaigns</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">📱</div>
-                    <h3 class="service-title">Social Media Management</h3>
-                    <p class="service-description">
-                        End-to-end social media setup, posts, reels, ad creatives, engagement tracking, and automation to build your online presence.
-                    </p>
-                    <ul class="service-features">
-                        <li>Social Media Setup</li>
-                        <li>Content & Reels Creation</li>
-                        <li>Engagement Tracking</li>
-                        <li>Ad Creative Design</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">🤖</div>
-                    <h3 class="service-title">Automation & AI Integration</h3>
-                    <p class="service-description">
-                        Workflow automation, AI chatbot development, lead generation automation, and AI-based analytics to work smarter, not harder.
-                    </p>
-                    <ul class="service-features">
-                        <li>Workflow Automation</li>
-                        <li>AI Chatbot Development</li>
-                        <li>Lead Generation Automation</li>
-                        <li>AI-Based Analytics</li>
-                    </ul>
-                    </div>
-                </div>
-                
-                <button class="carousel-nav-btn next-btn" id="servicesNextBtn" aria-label="Next">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M9 18l6-6-6-6"/>
-                    </svg>
-                </button>
-            </div>
-        </div>
+      <section class="services" id="services">
+    <div style="text-align: center; margin: 40px 0;">
+        <img 
+            class="services-maps-img"
+            src="outsource.png" 
+            alt="Maps illustration"
+        >
+    </div>
     </section>
 
     <!-- AI Tools Preview Section -->
